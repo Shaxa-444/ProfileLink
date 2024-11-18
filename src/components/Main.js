@@ -3,7 +3,6 @@ import { CIcon } from '@coreui/icons-react';
 import { cibFacebookF, cibInstagram, cibLinkedinIn, cibTelegramPlane } from '@coreui/icons';
 import { CButton, CCard, CCardBody, CCardHeader, CCardText, CCardTitle, CNav, CNavItem, CNavLink } from '@coreui/react';
 import logo from '../assets/logo.jpg'
-import { Link } from 'react-router-dom';
 import { Image } from 'antd';
 function Main() {
 

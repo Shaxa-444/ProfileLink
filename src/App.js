@@ -1,4 +1,3 @@
-import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Main from './components/Main';
 import '@coreui/coreui/dist/css/coreui.min.css'
