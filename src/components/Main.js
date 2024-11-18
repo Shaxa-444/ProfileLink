@@ -25,16 +25,16 @@ function Main() {
                 <CCardBody>
                     <Image src={logo} style={{ width: "100px", marginTop: "30px", marginBottom: "50px", borderRadius: "50%" }} />
                     <CCardTitle>Иброхим Садиев Ахмадович</CCardTitle>
-                    <CCardText style={{ width: "350px", margin: "20px auto", textAlign: "left" }}>
-                        <span style={{ display: "flex", justifyContent: "space-between" }}>
+                    <CCardText style={{ maxWidth: "400px", margin: "20px auto", textAlign: "left" }}>
+                        <span style={{ display: "flex", fontSize: "1em", justifyContent: "space-between" }}>
                             <span>Дата рождения:</span>
                             <span>17 Февраль 1974</span>
                         </span>
-                        <span style={{ display: "flex", justifyContent: "space-between" }}>
+                        <span style={{ display: "flex", fontSize: "1em", justifyContent: "space-between" }}>
                             <span>Почта:</span>
                             <span>Ibrokhim.sadiev@mail.ru</span>
                         </span>
-                        <span style={{ display: "flex", justifyContent: "space-between" }}>
+                        <span style={{ display: "flex", fontSize: "1em", justifyContent: "space-between" }}>
                             <span>Телефон номер:</span>
                             <span style={{ fontSize: "16px", display: "flex", flexDirection: "column" }}>
                                 <span>+998 (94) 540-77-77</span>
@@ -42,7 +42,7 @@ function Main() {
                             </span>
                         </span>
                     </CCardText>
-                    <div style={{ display: "flex", flexDirection: "column", width: "20%", margin: "auto", gap: "10px" }}>
+                    <div style={{ display: "flex", flexDirection: "column", width: "100%", maxWidth: "300px", margin: "auto", gap: "10px" }}>
                         <CButton style={{ fontSize: "18px", display: "flex", alignItems: "center", justifyContent: "center", gap: "5%" }} color="primary" href="https://t.me/+998945407777">
                             Telegram
                             <CIcon icon={cibTelegramPlane} size='xl' />
