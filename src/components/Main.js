@@ -8,7 +8,7 @@ function Main() {
 
     return (
         <div>
-            <CCard className="text-center">
+            <CCard className="text-center" style= {{borderBottom:"none"}}>
                 <CCardHeader>
                     <CNav variant="pills" className="card-header-pills">
                         <CNavItem>
