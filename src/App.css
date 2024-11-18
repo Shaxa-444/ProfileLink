@@ -10,3 +10,21 @@ a{
   text-decoration: none;
   color: default;
 }
+
+@media (max-width: 500px) {
+  .flex-nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+  .responsive-text{
+    font-size: 13px;
+  }
+  
+  .responsive-button{
+    width: 100%;
+    font-size: 10px;
+  }
+}
